@@ -5418,7 +5418,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 232.72998046875,
-											"top": 21,
+											"top": 53,
 											"width": 114.9052734375,
 											"height": 13,
 											"text": "SequenceDiagram1"
@@ -5431,7 +5431,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 213,
-											"top": 21,
+											"top": 53,
 											"width": 13.72998046875,
 											"height": 13,
 											"text": "sd"
@@ -5439,7 +5439,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 208,
-									"top": 16,
+									"top": 48,
 									"width": 1712,
 									"height": 1328,
 									"nameLabel": {
@@ -7487,9 +7487,9 @@
 									"font": "Arial;13;0",
 									"left": 672,
 									"top": 1104,
-									"width": 360,
-									"height": 56,
-									"text": "(8) Scénario erreur : l'identifiant n'existe pas\n8.1 Le SI informe à l'utilisateur que l'identifiant n'existe pas\nLe scénario s'arrête ici"
+									"width": 408,
+									"height": 83,
+									"text": "(8) Scénario alternatif : l'identifiant n'existe pas\n8.1 Le SI informe à l'utilisateur que l'identifiant n'existe pas\n8.2 Retour au point 2\nDans le scénario nominale on considère que l'identifiant est correct"
 								},
 								{
 									"_type": "UMLNoteView",
@@ -7499,7 +7499,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 672,
-									"top": 1168,
+									"top": 1200,
 									"width": 360,
 									"height": 56,
 									"text": "(10) Scénario erreur : le serveur de BDD est HS\n10.1 Le SI informe à l'utilisateur que le serveur est HS\nLe scénario s'arrête ici"
@@ -7512,7 +7512,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 672,
-									"top": 1232,
+									"top": 1264,
 									"width": 432,
 									"height": 68,
 									"text": "(11) Scénario erreur : consultation impossible\n11.1 Le SI informe à l'utilisateur que la consultation du service est impossible\nLe scénario s'arrête ici"
@@ -7782,7 +7782,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGSmoJm1x6ui1A="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -7790,7 +7791,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGSmoJm1x6ui1A="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -7798,7 +7800,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGSmoJm1x6ui1A="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				}
 			]
 		}
